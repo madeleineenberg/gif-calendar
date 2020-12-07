@@ -6,7 +6,15 @@
 
 body {
     min-height: 100vh;
-    background: linear-gradient(180deg, peachpuff, #f95252);
+    background: linear-gradient(180deg, #212121 5%, white);
     background-attachment: fixed;
     font-family: "Poppins", sans-serif;
+  }
+
+  .app-wrapper {
+      text-align: center;
+
+      .title {
+
+      }
   }
