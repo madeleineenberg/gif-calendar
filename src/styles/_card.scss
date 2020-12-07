@@ -5,6 +5,8 @@
     transform: rotateX(0deg);
     transition: ease 0.3s;
     background-color: white;
+    overflow: hidden;
+    border-radius: 20px;
    
     
 
@@ -18,7 +20,8 @@
     }
 
     h2 {
-       
+        font-family: 'Nunito', sans-serif;
+        font-weight: 900;
         font-size: 12.5rem;
         padding: 35px 0;
         text-align:center;
@@ -42,7 +45,29 @@
     transform: rotateY(180deg);
     position: absolute;
     background-color: white;
-   
     top: 0;
     left: 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    color: #d060f9;
+    font-weight: 700;
+    font-style: italic;
+    
+
+
+    .img-wrapper{
+        max-width: 300px;
+        max-height: 300px;
+        padding: 10px;
+
+        img {
+            max-width: 300px;
+            max-height: 300px;
+        }
+    }
+
+
 }

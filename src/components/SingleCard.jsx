@@ -5,7 +5,7 @@ export default function SingleCard({ props: {images, title, id }, number}) {
     return (
 
 
-        <FlipCard> 
+        <FlipCard number={number}> 
             <div className="card-front">
             <div className="circle">
             <h2>{number +1 }</h2>

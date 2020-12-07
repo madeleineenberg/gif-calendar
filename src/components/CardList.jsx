@@ -25,7 +25,6 @@ export default function CardList() {
 
     return (
         <div className="container-wrapper">
-            <h2 className="sub-title">Advent Calendar</h2>
             <div className="card-wrapper">
                 {gifList && gifList.map((item, index) => {
                     return (
