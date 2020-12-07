@@ -9,18 +9,19 @@ export default function CardList() {
 
     function fetchGifList(){
         fetch(`https://api.giphy.com/v1/gifs/search?q=funny&api_key=${apiKey}&limit=24`)
-.then(res => res.json()) 
-.then(result => {
-    console.log(result.data);
-    setGifList(result.data)
-});	
+        .then(res => res.json()) 
+        .then(result => {
+            console.log(result.data);
+            setGifList(result.data)
+        });	
+        }
 
-    }
+        useEffect(()=> {
+            fetchGifList()
+            console.log(gifList);
+        }, [])
 
- useEffect(()=> {
-    fetchGifList()
-    console.log(gifList);
- }, [])
+        
 
     return (
         <div className="container-wrapper">

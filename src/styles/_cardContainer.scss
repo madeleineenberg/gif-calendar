@@ -1,0 +1,33 @@
+
+.container-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-wrapper {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+// background-image: url("https://media.giphy.com/media/l0MYt4mSPCUQRkIBG/giphy.gif");
+// background-size: cover;
+// background-repeat: no-repeat;
+
+}
+
+.single-card {
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+    cursor: pointer;
+    width: 350px;
+    height: 400px;
+    border: 1px solid white;
+    margin: 10px;
+
+
+    &.flip {
+        transform: rotateY(180deg);
+    }
+}

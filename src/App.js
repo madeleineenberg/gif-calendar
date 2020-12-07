@@ -1,5 +1,5 @@
 
-import './App.css';
+import './App.scss';
 import CardList from './components/CardList';
 
 function App() {
