@@ -9,6 +9,7 @@ export default function OptionCategory({changeGif, option}) {
     <option value="cat">Cat</option>
     <option value="dog">Dog</option>
     <option value="meme">Meme</option>
+    <option value="disney">Disney</option>
     <option value="christmas">Christmas</option>
     </select>
         </div>
