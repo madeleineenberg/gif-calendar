@@ -5,17 +5,17 @@
     "main.js.map": "/gif-calendar/static/js/main.2f1c2122.chunk.js.map",
     "runtime-main.js": "/gif-calendar/static/js/runtime-main.d09ca876.js",
     "runtime-main.js.map": "/gif-calendar/static/js/runtime-main.d09ca876.js.map",
-    "static/js/2.6a892a80.chunk.js": "/gif-calendar/static/js/2.6a892a80.chunk.js",
-    "static/js/2.6a892a80.chunk.js.map": "/gif-calendar/static/js/2.6a892a80.chunk.js.map",
+    "static/js/2.f12b71fe.chunk.js": "/gif-calendar/static/js/2.f12b71fe.chunk.js",
+    "static/js/2.f12b71fe.chunk.js.map": "/gif-calendar/static/js/2.f12b71fe.chunk.js.map",
     "static/js/3.778c59f0.chunk.js": "/gif-calendar/static/js/3.778c59f0.chunk.js",
     "static/js/3.778c59f0.chunk.js.map": "/gif-calendar/static/js/3.778c59f0.chunk.js.map",
     "index.html": "/gif-calendar/index.html",
     "static/css/main.f4416b65.chunk.css.map": "/gif-calendar/static/css/main.f4416b65.chunk.css.map",
-    "static/js/2.6a892a80.chunk.js.LICENSE.txt": "/gif-calendar/static/js/2.6a892a80.chunk.js.LICENSE.txt"
+    "static/js/2.f12b71fe.chunk.js.LICENSE.txt": "/gif-calendar/static/js/2.f12b71fe.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d09ca876.js",
-    "static/js/2.6a892a80.chunk.js",
+    "static/js/2.f12b71fe.chunk.js",
     "static/css/main.f4416b65.chunk.css",
     "static/js/main.2f1c2122.chunk.js"
   ]
