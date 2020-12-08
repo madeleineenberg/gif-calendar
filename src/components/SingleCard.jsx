@@ -1,7 +1,7 @@
 import React from 'react'
 import FlipCard from './FlipCard';
 
-export default function SingleCard({ props: {images, title, id }, number}) {
+export default function SingleCard({ props: {images, title }, number}) {
     return (
 
 
@@ -14,7 +14,7 @@ export default function SingleCard({ props: {images, title, id }, number}) {
             <div className="card-back">
             <h3>{title}</h3>
             <div className="img-wrapper">
-            <img src={images.original.url}/>
+            <img src={images.downsized_medium.url}/>
             </div>
             </div>
         </FlipCard>
