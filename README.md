@@ -1,4 +1,6 @@
-Personal project using React and giphy API
+#Personal project with React and giphy API
+https://madeleineenberg.github.io/gif-calendar/
+
 
 
 
