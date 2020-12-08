@@ -7,7 +7,7 @@ export default function CardList() {
 
     let [gifList, setGifList] = useState([])
     let [option, setOption] = useState("funny");
-    const apiKey = "Zurwe74dMp7o8yBFmftzXBPLzqHVRBNw";
+    const API_KEY = process.env.REACT_APP_GIF_API_KEY;
 
         useEffect(()=> {
             if(localStorage.category){
@@ -27,7 +27,7 @@ export default function CardList() {
             setOption(newGif) 
           }
           function fetchGifList(){
-            fetch(`https://api.giphy.com/v1/gifs/search?q=${option}&api_key=${apiKey}&limit=24`)
+            fetch(`https://api.giphy.com/v1/gifs/search?q=${option}&api_key=${API_KEY}&limit=24`)
             .then(res => res.json()) 
             .then(result => {
                 console.log(result.data);
